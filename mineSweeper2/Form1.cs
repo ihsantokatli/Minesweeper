@@ -35,6 +35,7 @@ namespace mineSweeper2
 
             timerLabel = new Label();
             timerLabel.Font = new Font("Segoe UI", 14, FontStyle.Bold);
+            timerLabel.AutoSize=true;
             timerLabel.ForeColor = Color.Black;
             timerLabel.Location = new Point(365, 10);
             timerLabel.Text = "Time : 0";
